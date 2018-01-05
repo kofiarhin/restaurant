@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700')
+
+
+html, body
+	font-family: 'Comfortaa', cursive
+*
+	box-sizing: border-box
+
+
+a
+	text-decoration: none
+	color: black
+
+//variables 
+
+$blue: #4285f4
+
+header
+	margin-bottom: 30px
+
+.container
+	display: flex
+	width: 960px
+	max-width: 90%
+	margin: 0 auto
+	justify-content: space-between
+	nav a
+		margin-left: 20px
+
+
+form
+	width: 540px
+	margin: 30px auto 0
+	input
+		width: 100%
+		padding: 10px 0px
+		text-indent: 20px
+		letter-spacing: 1px
+		margin-bottom: 15px
+
+.success
+	text-align: center
+	color: green
+
+
+.error
+	text-align: center
+	color: red
+
+
+.wrapper
+	width: 960px
+	max-width: 95%
+	margin: 0 auto
+	display: flex
+	flex-wrap: wrap
+	.item
+		width: 25%
+		padding-top: 25%
+		cursor: pointer
+		display: block
+		background:
+			size: cover
+			position: center
+.selected
+	width: 300px
+	height: 300px
+
+
+.food
+	width:300px
+	max-width: 80%
+	margin: 0 auto
+	img
+		width: 100%
+.message
+	text-align: center
+	color: green
+
+button
+	outline: none
+	border: none
+	padding: 15px 30px
+	text-transform: uppercase
+	letter-spacing: 1px
+	cursor: pointer
+	background: $blue
+	color: white
+	border-radius: 5px
+	box-shadow: 0px 5px 7px 2px rgba(black, 0.2)
+	transition: all ease-in-out 200ms
+	&:hover
+		background: white
+		color: black
+		box-shadow: -5px 10px 10px rgba($blue, 0.2)
+		transform: translateX(10px)
+	&.deliver
+		font-size: 12px
+		padding: 10px 20px
+
+
+
+.order_wrapper
+	background: pink
+	width: 960px
+	max-width: 90%
+	margin: 0 auto
+
+	
